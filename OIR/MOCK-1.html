@@ -24,7 +24,28 @@
 <script src="jquery-countdown-timer-control.js"></script>
 
 </head>
-<iframe src="https://drive.google.com/file/d/1yo9nQNMmu7M_A1bff0rSdLwCQ9ADl6-i/preview" width="100%" height="640" allow="autoplay"></iframe>
+<body>
+<noscript>
+  Please enable scripts, we would not be having any ads, but scripts are necessary for viewing the content and accessing it. If you are facing any issues, please mail us at issue.tat@colonelvyas.co.in . 
+</noscript>
+<div id="adobe-dc-view"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+var adobeDCView = new AdobeDC.View({clientId: "f36609803b55481eb30f136b704a6f79", divId: "adobe-dc-view"});
+adobeDCView.previewFile({
+content:{location: {url: "https://ssb.colonelvyas.org/PDF/OIR/OIR-1.pdf"}},
+metaData:{fileName: "OIR MOCK TEST-2"}
+}, {defaultViewMode: "FIT_PAGE", showAnnotationTools: false, showLeftHandPanel: false, 
+dockPageControls: false});
+});
+
+$(window).on('load', function() {
+
+$('#js-preloader').addClass('loaded');
+
+});
+</script>
 <body>
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
