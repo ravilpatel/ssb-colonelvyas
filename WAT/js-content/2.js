@@ -109,7 +109,7 @@ document.write( '        <button class=\"btn\" href=\"#\" onClick=\"openFullscre
 document.write( '      </center>\n' );
 document.write( '    </div>\n' );
 document.write( '    <div id=\"fullscreen\">\n' );
-document.write( '      <video id=\"video\" muted>\n' );
+document.write( '      <video id=\"video\" poster="wat-poster.png"  muted>\n' );
 document.write( '        <source src=\"vid/2.mp4\" type=\"video/mp4\">\n' );
 document.write( '            Your browser does not support this test. Please use Google Chrome or Brave Browser or delete any type of unwanted Plugin(There are no ads on this website).\n' );
 document.write( '      </video>\n' );

@@ -93,8 +93,7 @@ document.write( '        <ul type=\"square\"> \n' );
 document.write( '          <li>You can practice for WAT - Word Association Test over here for free without any hazzle to login.</li>\n' );
 document.write( '          <li>Do analyse your own mistakes after the mock.</li>\n' );
 document.write( '          <li>Mobile users should use landscape orientation for best performance.</li>\n' );
-document.write( '          <li>To download the pdf of the same <a href=\"https://ssb.colonelvyas.org/WAT/PDF/MOCK-1.html\" target=\"_blank\" style=\"text-decoration: none;\">link</a></li>\n' );
-document.write( '          <li>Do consider giving a review to us using this <a href=\"http://colonelvyas.org/feedback\" target=\"_blank\" style=\"text-decoration: none;\">link on Google.</a></li>\n' );
+document.write( '          <li>Do consider giving a feedback to us using this <a href=\"http://colonelvyas.org/feedback\" target=\"_blank\" style=\"text-decoration: none;\">link.</a></li>\n' );
 document.write( '        </ul>\n' );
 document.write( '      </div>\n' );
 document.write( '      <div class=\"column5\">\n' );
@@ -111,7 +110,7 @@ document.write( '      </center>\n' );
 document.write( '    </div>\n' );
 document.write( '    <div id=\"fullscreen\">\n' );
 document.write( '      <video id=\"video\" poster="wat-poster.png"  muted>\n' );
-document.write( '        <source src=\"vid/1.mp4\" type=\"video/mp4\">\n' );
+document.write( '        <source src=\"vid/5.mp4\" type=\"video/mp4\">\n' );
 document.write( '            Your browser does not support this test. Please use Google Chrome or Brave Browser or delete any type of unwanted Plugin(There are no ads on this website).\n' );
 document.write( '      </video>\n' );
  
