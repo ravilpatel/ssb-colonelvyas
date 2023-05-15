@@ -297,7 +297,7 @@ header
 }
 
 .header-area .main-nav .logo h4 img {
-  max-width: 30px;
+  max-height: 55px;
   margin-top: -20px;
   margin-left: 5px;
 }
@@ -1563,7 +1563,7 @@ responsive
     font-size: 24px;
   }
   .header-area .main-nav .logo h4 img {
-    max-width: 25px;
+    max-height: 25px;
     margin-left: 0px;
   }
   .header-area .main-nav .nav li:last-child {
@@ -1573,7 +1573,7 @@ responsive
 
 @media (max-width: 992px) {
   .header-area .main-nav .logo h4 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .main-banner .left-content {
     margin-right: 0px;
@@ -1626,7 +1626,7 @@ responsive
     font-size: 30px;
   }
   .header-area .main-nav .logo h4 img {
-    max-width: 30px;
+    max-height: 55px;
     margin-left: 5px;
   }
   .main-banner .info-stat {
