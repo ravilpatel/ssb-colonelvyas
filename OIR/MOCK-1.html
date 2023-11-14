@@ -27,7 +27,7 @@
 </head>
 <body>
 <noscript>
-  Please enable scripts, we would not be having any ads, but scripts are necessary for viewing the content and accessing it. If you are facing any issues, please mail us at issue.tat@colonelvyas.org . 
+  Please enable scripts/disable adblocker to view content or download the pdf to attempt OIR. Scripts would allow viewing adobe pdf file. 
 </noscript>
 <div id="adobe-dc-view"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -35,8 +35,8 @@
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 var adobeDCView = new AdobeDC.View({clientId: "a99cb668cd60497eb40841b429540749", divId: "adobe-dc-view"});
 adobeDCView.previewFile({
-content:{location: {url: "https://ssb.colonelvyas.org/PDF/OIR/OIR-1.pdf"}},
-metaData:{fileName: "OIR MOCK TEST-2"}
+content:{location: {url: "https://ssb.colonelvyas.org/PDF/OIR-NEW/OIR-1.pdf"}},
+metaData:{fileName: "OIR MOCK TEST-1"}
 }, {defaultViewMode: "FIT_PAGE", showAnnotationTools: false, showLeftHandPanel: false, 
 dockPageControls: false});
 });
@@ -65,15 +65,15 @@ $('#js-preloader').addClass('loaded');
   <div class="calloutR-header">Download PDF</div>
   <span class="closebtnR" onclick="this.parentElement.style.display='none';">×</span>
   <div class="calloutR-container">
-    <p>You can download this in PDF format by <a target="_blank" href="https://ssb.colonelvyas.org/PDF/OIR/OIR-1.pdf">Clicking Here</a> or close it if this is fine for you.</p>
-    <p>Solutions of the same are available by using <a target="_blank" href="https://ssb.colonelvyas.org/PDF/OIR/OIR-1-Sol.pdf">THIS LINK</a></p>
+    <p>You can download this in PDF format by <a target="_blank" href="https://ssb.colonelvyas.org/PDF/OIR-NEW/OIR-1.pdf">Clicking Here</a> or close it if this is fine for you.</p>
+    <p>Solutions of the same are available by using <a target="_blank" href="https://ssb.colonelvyas.org/PDF/OIR-NEW/OIR-1-Sol.pdf">THIS LINK</a></p>
   </div>
 </div>
 
 <div class="OPIESTTIMER">
   
 	<span class="closebtnR" style="color:black;" onclick="this.parentElement.style.display='none';">×</span>
-	<div class="timer timer1 alert alert-primary" data-minutes-left="17.01"></div><br>
+	<div class="timer timer1 alert alert-primary" data-minutes-left="30.01"></div><br>
 	<div id="controls">
 	<div class="timerstart btn btn-primary" style="font-size:14px;">start Timer</div>
 	<div class="timerpause btn btn-danger">pause</div>
@@ -82,7 +82,7 @@ $('#js-preloader').addClass('loaded');
 
 <div class="popup" style="padding-top:50px; padding-left:15px;" onclick="myFunction00()">
 	<i class="fa fa-info-circle"></i>
-   	 <span class="popuptext" id="myPopup">Timer can be used for a proper mock test. 17 min timer given below. Click on Start Timer.</span>
+   	 <span class="popuptext" id="myPopup">30 Minute Timer</span>
 	
   </div>
 </div>
